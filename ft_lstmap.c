@@ -6,7 +6,7 @@
 /*   By: mde-arpe <mde-arpe@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/24 19:14:24 by mde-arpe          #+#    #+#             */
-/*   Updated: 2023/08/10 21:02:09 by mde-arpe         ###   ########.fr       */
+/*   Updated: 2023/08/11 01:29:11 by mde-arpe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	t_list	*aux;
 	void	*new;
 
-	(void) del;
 	if (!lst)
 		return (NULL);
 	ret = NULL;
